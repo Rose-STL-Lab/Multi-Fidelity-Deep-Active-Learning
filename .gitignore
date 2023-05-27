@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoint/
+dmfdal_3f/data/
+dmfdal_2f/data/
