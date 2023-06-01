@@ -18,10 +18,25 @@ To balance quality and cost, various domain areas of science and engineering run
 1. dmfdal_2f/: Experiments on tasks with 2 fidelity levels, including heat2, poisson2, and fliud.
 2. dmfdal_3f/: Experiments on tasks with 3 fidelity levels, including heat3 and poisson3.
 
+## Dataset Download
+
+### D-MFDAL 2F
+```
+cd dmfdal_2f/
+wget -O data.zip https://roselab1.ucsd.edu/seafile/f/b40ebc08daac417eb5b3/?dl=1
+unzip data.zip
+```
+
+### D-MFDAL 3F
+```
+cd dmfdal_3f/
+wget -O data.zip https://roselab1.ucsd.edu/seafile/f/1bbdc8ab0791471cbf26/?dl=1
+unzip data.zip
+```
 
 ## Model Training and Evaluation
 
-# D-MFDAL 2F
+### D-MFDAL 2F
 ```
 cd dmfdal_2f/
 ./heat.sh
@@ -29,7 +44,7 @@ cd dmfdal_2f/
 ./fluid.sh
 ```
 
-# D-MFDAL 3F
+### D-MFDAL 3F
 ```
 cd dmfdal_3f/
 ./heat3.sh
