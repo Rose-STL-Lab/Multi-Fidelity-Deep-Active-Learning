@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 
 
-## Abstract:
+## Abstract
 To balance quality and cost, various domain areas of science and engineering run simulations at multiple levels of sophistication. Multi-fidelity active learning aims to learn a direct mapping from input parameters to simulation outputs by actively acquiring data from multiple fidelity levels. However, existing approaches based on Gaussian processes are hardly scalable to high-dimensional data. Other deep learning-based methods use the hierarchical structure, which only supports passing information from low-fidelity to high-fidelity. These approaches can lead to the undesirable propagation of errors from low-fidelity representations to high-fidelity ones. We propose a novel disentangled deep Bayesian learning framework for multi-fidelity active learning, that learns the surrogate models conditioned on the distribution of functions at multiple fidelities. 
 
 
